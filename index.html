@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Problems Solving</title>
+    <style>
+      @media only screen and (max-width: 780px) {
+        .sticker-w img:not(:first-child) {
+          all: unset;
+          display: inline-block;
+        }
+        .sticker-w img:not(:first-child) {
+          all: unset;
+          display: inline-block;
+        }
+        .sticker-w img:nth-child(2) {
+          all: unset;
+          position: absolute !important;
+          top: 21px !important;
+          width: 87% !important;
+          left: 16px !important;
+          animation-play-state: running;
+          display: inline-block;
+          animation-play-state: running;
+          animation: rotating-sticker-05 12s linear infinite;
+          display: inline-block;
+        }
+
+        .sticker-w.circ.play {
+          all: unset;
+          position: relative;
+          overflow: hidden;
+
+          display: inline-block;
+        }
+        .sticker-w.circ.play {
+          all: unset;
+          position: relative;
+          overflow: hidden;
+          display: inherit;
+          display: inline-block;
+        }
+
+        .sticker-w img:nth-child(3) {
+          all: unset;
+          position: absolute !important;
+          left: 0 !important;
+          animation-play-state: running;
+        }
+        @keyframes newrotet {
+          0% {
+            rotate: 0deg;
+          }
+          20% {
+            rotate: 20deg;
+          }
+          40% {
+            rotate: 40deg;
+          }
+          60% {
+            rotate: 60deg;
+          }
+          80% {
+            rotate: 80deg;
+          }
+          100% {
+            rotate: 100deg;
+          }
+        }
+
+        @keyframes rotating-sticker-05 {
+          from {
+            transform: translate(0) rotate(0deg);
+          }
+          to {
+            transform: translate(0) rotate(-360deg);
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="conatainer" id="conatainer">
+      <h1 id="main-heading">Countries</h1>
+      <h2 id="second-heading">List</h2>
+      <ul>
+        <li class="country">Bangladesh</li>
+        <li class="country">USA</li>
+        <li class="country">Canada</li>
+        <li class="country">Dubai</li>
+        <li class="country">UK</li>
+      </ul>
+      <input type="text" class="input" />
+      <button class="btn">Add Country</button>
+    </div>
+
+    <div class="conatainer2" id="conatainer2"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
